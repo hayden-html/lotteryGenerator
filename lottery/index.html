@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+    <h1 name="title">Lottery Number Generator</h1>
+    <div class="btns">
+        <button class="btn yellow yellow_border" onclick="toggle(1)" id="option1">EUROMILLIONS</button>
+        <button class="btn red red_border active" onclick="toggle(2)" id="option2">LOTTO</button>
+        <button class="btn purple purple_border" onclick="toggle(3)" id="option3">THUNDERBALL</button>
+    </div>
+    <div class="numbers">
+        <h2 class="middle">Click to generate!</h2>
+    </div>
+    <button type="submit" class="btn" id="generate">Generate</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

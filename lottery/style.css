@@ -1,0 +1,96 @@
+body {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 400%;
+    margin: 0   0   5%;
+    padding: auto 0;
+    color: white;
+    background-color: #2525fd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+
+.btn {
+    margin: 0 5%;
+    font-weight: 400;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: .1s;
+    color: white;
+    border: 0px solid;
+}
+
+.active {
+    border: 5px solid;
+    border-radius: 10%;
+    transition: .2s;
+}
+
+.yellow {
+    background-color: #f8b400;
+}
+
+.red {
+    background-color: #e5013b;
+}
+
+.purple {
+    background-color: #bc13ad;
+}
+
+.yellow_border {
+    border-color:  #ffc62ada;
+}
+
+.red_border {
+    border-color: #ff1852c9;;
+}
+
+.purple_border {
+    border-color: #ee34debd;
+}
+
+.border {
+    border: 2px solid gray;
+}
+
+#generate {
+    font-size: 2rem;
+    background-color: #f86e12;
+    border: #f86e12;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circle {
+    flex: 1;
+    width: auto;
+    border-radius: 100%;
+    position: relative;
+    margin: 2%;
+}
+
+h2 {
+    position: relative;
+    font-family: sans-serif;
+}
+
+.middle {
+    margin: 20px auto;
+}
